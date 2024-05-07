@@ -1,0 +1,27 @@
+print('Hello World!')
+print('This is ELISHA CATAN')
+print(21)
+print('SKYWORTH')
+baon=[50,200,500,800]
+print (baon)
+baon2=[500,400,600,1000]
+print(baon2)
+baon3=[1000,1500,2500,3600]
+print(baon3)
+all=baon+baon2+baon3
+print(all)
+print(len(all))
+print('The no. of obs is:',(len(all)))
+print('The HV is:', max(all))
+print('The LV is:', min(all))
+print('The sum is:', sum(all))
+print('The mean is:', sum(all)/len(all))
+print('The Range is:', max(all)-min(all))
+pvalue = 0.03
+if pvalue > 0.03:
+   print('accept Ho')
+else:
+   print('reject Ho')
+atten=['Dela Cruz','Garcia','Reyes','Ramos','Bautista','Lopez','Santos','Aquino','Torres']
+print('Total number of present:',len(atten))
+print (atten)
